@@ -18,7 +18,7 @@ export const msalConfig = {
   auth: {
     clientId: clientId,
     authority: `${endpoint}${tenantId}`,
-    redirectUri: 'http://localhost:3000',
+    redirectUri: 'https://azure-auth.vercel.app',
   },
   cache: {
     cacheLocation: 'sessionStorage', // This configures where your cache will be stored
